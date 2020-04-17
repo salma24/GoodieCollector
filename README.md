@@ -1,8 +1,11 @@
 # GoodieCollector
 Memory Limit:1024 MB
 Time Limit: 2 s
+
 Goodie Collector (300 points)
+
 Introduction
+
 The big day has finally arrived, Bloomberg has come to your university and prepared a fun contest for
 you. To satisfy basic student needs, Bloomberg has prepared some tables arranged in a row with some
 different goodies including socks, pens, and other useful items. Due to logistic reasons, there is only a
@@ -20,15 +23,19 @@ on the i-th table. A goodie type is a number between 0 (inclusive) and k (exclus
 Output Specifications
 Print the maximum number of different goodie types you can get.
 Sample Input/Output
+
 Input
+
 8 3 3
 1 2 2 1 0 0 0 0
 Output
 2
 Explanation
+
 Here, one can only select two different types of goodies.
 Either select goodie types 0 and 1 by going to the tables (which are assumed to be
 1-indexed):
+
 - 1 4 7
 - or 1 4 8
 - or 1 5 8
@@ -38,7 +45,9 @@ Either select goodie types 0 and 1 by going to the tables (which are assumed to 
 - or 1 8
 - or 4 7
 - or 4 8
+
 Or select goodie types 0 and 2 by going to the the tables:
+
 - 2 5 8
 - or 2 5
 - or 2 6
@@ -47,11 +56,13 @@ Or select goodie types 0 and 2 by going to the the tables:
 - or 3 6
 - or 3 7
 - or 3
+
 Input
 5 4 2
 0 0 3 3 2
 Output
 3
+
 Explanation
 It is possible to get 3 different types of goodies from tables 1, 3 and 5. This is
 optimal as goodie type 1 is not available anywhere and this is the only goodie type
